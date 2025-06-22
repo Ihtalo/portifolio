@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Italo Micael</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <button id="temaBtn">🌙</button>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero" data-aos="fade-up">
+    <img src="assets/foto-perfil.jpg" alt="Foto de Italo Micael" class="foto-perfil" data-aos="fade-down">
+    <div class="hero-content">
+      <h1>Oi, eu sou <span class="highlight">Italo Micael</span></h1>
+      <p><span id="typed"></span></p>
+      <a href="#projetos" class="btn">Ver Projetos</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" data-aos="fade-up">
+    <h2>Sobre Mim</h2>
+    <p>Sou estudante de Sistemas de Informação, apaixonado por desenvolvimento web e jogos. Tenho experiência com HTML, CSS, JavaScript e Python, além de projetos práticos no GitHub.</p>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" data-aos="fade-up">
+    <h2>Projetos</h2>
+    <div class="projetos-grid">
+      <div class="card">
+        <img src="assets/painel.png" alt="Painel Motivacional">
+        <h3>Painel Motivacional</h3>
+        <p>Painel com frases, modo escuro e visual animado. Feito com HTML, CSS e JS.</p>
+        <a href="https://github.com/Ihtalo/Painel-Motivacional-2025" target="_blank">Ver Projeto</a>
+      </div>
+      <div class="card">
+        <img src="assets/todolist.png" alt="Lista de Tarefas">
+        <h3>Lista de Tarefas</h3>
+        <p>To-do list com localStorage, responsivo, tema escuro e boas práticas JS.</p>
+        <a href="https://github.com/Ihtalo/To-do-List-" target="_blank">Ver Projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="habilidades" data-aos="fade-up">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Git / GitHub</li>
+      <li>GameMaker (GML)</li>
+    </ul>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" data-aos="fade-up">
+    <h2>Contato</h2>
+    <ul class="contato-lista">
+      <li><i class="fas fa-envelope"></i> italomicaelsq@gmail.com</li>
+      <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5598992372997" target="_blank">(98) 99237-2997</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Ihtalo" target="_blank">github.com/Ihtalo</a></li>
+      <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/italo-micael-54a9032aa" target="_blank">linkedin.com/in/italo-micael</a></li>
+      <li><i class="fas fa-file-download"></i> <a href="assets/curriculo-italo.pdf" download>Baixar Currículo (PDF)</a></li>
+    </ul>
+  </section>
+
+  <!-- RODAPÉ -->
+  <button id="btnTop" title="Voltar ao topo">⬆️</button>
+  <footer>
+    <p>Desenvolvido por Italo Micael &copy; 2025</p>
+    <p class="redes-rodape">
+      <a href="https://github.com/Ihtalo" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/italo-micael-54a9032aa" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://wa.me/5598992372997" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
