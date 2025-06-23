@@ -13,7 +13,7 @@ Bem-vindo ao meu portfólio pessoal! Aqui apresento quem sou, meus projetos, min
 ## 🌐 Acesse Online
 
 Você pode visualizar o portfólio publicado aqui:  
-👉 [https://ihtalo.github.io/portfolio](https://ihtalo.github.io/portfolio)
+👉 https://github.com/Ihtalo/portifolio?tab=readme-ov-file
 
 ---
 
